@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  pokemon-api:
+    image: vionaray/pokemon-api:latest
+    container_name: pokemon
+    restart: always
+    ports:
+      - "8085:8080"
